@@ -1,14 +1,13 @@
 //
-//  ViewController.h
+//  ExampleTask.h
 //  UberPiano
 //
 //  Created by Bui Quoc Viet on 9/1/17.
 //  Copyright © 2017 Mobile Team. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseTaskNetwork.h"
 
-@interface ViewController : UIViewController
+@interface ExampleTask : BaseTaskNetwork
 
 @end
-

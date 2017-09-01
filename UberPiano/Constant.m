@@ -1,14 +1,13 @@
 //
-//  ViewController.h
+//  Constant.m
 //  UberPiano
 //
 //  Created by Bui Quoc Viet on 9/1/17.
 //  Copyright © 2017 Mobile Team. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Constant.h"
 
-@interface ViewController : UIViewController
+@implementation Constant
 
 @end
-

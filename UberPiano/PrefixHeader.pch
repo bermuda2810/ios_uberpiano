@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  Sip
+//
+//  Created by Le Cong on 5/30/16.
+//  Copyright © 2016 Nal. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef DEBUG
+#define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#define DLog(...)
+#endif
+
+#endif

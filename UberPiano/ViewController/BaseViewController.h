@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BaseViewController.h
 //  UberPiano
 //
 //  Created by Bui Quoc Viet on 9/1/17.
@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface BaseViewController : UIViewController
+
+- (void)hideLoading;
+- (void)showLoading;
 
 @end
-

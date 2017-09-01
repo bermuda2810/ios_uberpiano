@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD2B7CBF1F5976770096E672 /* DialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2B7CBE1F5976770096E672 /* DialogView.m */; };
+		BD2B7CC21F5976DF0096E672 /* NSLayoutConstraint+NSLayoutConstraint_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2B7CC11F5976DF0096E672 /* NSLayoutConstraint+NSLayoutConstraint_Extension.m */; };
+		BD2B7CC41F597B320096E672 /* DialogView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD2B7CC31F597B320096E672 /* DialogView.xib */; };
 		BDD923D51F594E5800D7EEAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD923D41F594E5800D7EEAB /* main.m */; };
 		BDD923D81F594E5800D7EEAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD923D71F594E5800D7EEAB /* AppDelegate.m */; };
 		BDD923DB1F594E5800D7EEAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD923DA1F594E5800D7EEAB /* ViewController.m */; };
 		BDD923DE1F594E5800D7EEAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD923DC1F594E5800D7EEAB /* Main.storyboard */; };
 		BDD923E01F594E5800D7EEAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD923DF1F594E5800D7EEAB /* Assets.xcassets */; };
 		BDD923E31F594E5800D7EEAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD923E11F594E5800D7EEAB /* LaunchScreen.storyboard */; };
+		BDD923F61F59559D00D7EEAB /* BaseTaskNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD923F51F59559D00D7EEAB /* BaseTaskNetwork.m */; };
+		BDD923F91F5955CC00D7EEAB /* AppError.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD923F81F5955CC00D7EEAB /* AppError.m */; };
+		BDD923FD1F59580C00D7EEAB /* NSMutableDictionary+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD923FC1F59580C00D7EEAB /* NSMutableDictionary+Extensions.m */; };
+		BDD924021F595E4900D7EEAB /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD924011F595E4900D7EEAB /* Constant.m */; };
+		BDD924061F596A3E00D7EEAB /* ExampleTask.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD924051F596A3E00D7EEAB /* ExampleTask.m */; };
+		BDD924091F59703700D7EEAB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD924081F59703700D7EEAB /* BaseViewController.m */; };
+		BDD9240C1F59705C00D7EEAB /* BasePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD9240B1F59705C00D7EEAB /* BasePresenter.m */; };
+		E1CDF6417F36CA910EEA9BB5 /* libPods-UberPiano.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB5621F10EFE12F3F8A77E9 /* libPods-UberPiano.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		545CD8A097F83D26AF20A4B3 /* Pods-UberPiano.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberPiano.release.xcconfig"; path = "Pods/Target Support Files/Pods-UberPiano/Pods-UberPiano.release.xcconfig"; sourceTree = "<group>"; };
+		7AB5621F10EFE12F3F8A77E9 /* libPods-UberPiano.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UberPiano.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2B7CBD1F5976770096E672 /* DialogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DialogView.h; path = View/DialogView.h; sourceTree = "<group>"; };
+		BD2B7CBE1F5976770096E672 /* DialogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DialogView.m; path = View/DialogView.m; sourceTree = "<group>"; };
+		BD2B7CC01F5976DF0096E672 /* NSLayoutConstraint+NSLayoutConstraint_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+NSLayoutConstraint_Extension.h"; sourceTree = "<group>"; };
+		BD2B7CC11F5976DF0096E672 /* NSLayoutConstraint+NSLayoutConstraint_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+NSLayoutConstraint_Extension.m"; sourceTree = "<group>"; };
+		BD2B7CC31F597B320096E672 /* DialogView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DialogView.xib; sourceTree = "<group>"; };
 		BDD923D01F594E5800D7EEAB /* UberPiano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberPiano.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD923D41F594E5800D7EEAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BDD923D61F594E5800D7EEAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +44,24 @@
 		BDD923DF1F594E5800D7EEAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDD923E21F594E5800D7EEAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDD923E41F594E5800D7EEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDD923F41F59559D00D7EEAB /* BaseTaskNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTaskNetwork.h; sourceTree = "<group>"; };
+		BDD923F51F59559D00D7EEAB /* BaseTaskNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTaskNetwork.m; sourceTree = "<group>"; };
+		BDD923F71F5955CC00D7EEAB /* AppError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppError.h; sourceTree = "<group>"; };
+		BDD923F81F5955CC00D7EEAB /* AppError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppError.m; sourceTree = "<group>"; };
+		BDD923FB1F59580C00D7EEAB /* NSMutableDictionary+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Extensions.h"; sourceTree = "<group>"; };
+		BDD923FC1F59580C00D7EEAB /* NSMutableDictionary+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Extensions.m"; sourceTree = "<group>"; };
+		BDD923FF1F595BC900D7EEAB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BDD924001F595E4900D7EEAB /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		BDD924011F595E4900D7EEAB /* Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
+		BDD924031F5960FB00D7EEAB /* NetworkAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkAPI.h; sourceTree = "<group>"; };
+		BDD924041F596A3E00D7EEAB /* ExampleTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleTask.h; path = Network/ExampleTask.h; sourceTree = "<group>"; };
+		BDD924051F596A3E00D7EEAB /* ExampleTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExampleTask.m; path = Network/ExampleTask.m; sourceTree = "<group>"; };
+		BDD924071F59703700D7EEAB /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = ViewController/BaseViewController.h; sourceTree = "<group>"; };
+		BDD924081F59703700D7EEAB /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = ViewController/BaseViewController.m; sourceTree = "<group>"; };
+		BDD9240A1F59705C00D7EEAB /* BasePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasePresenter.h; path = Presenter/BasePresenter.h; sourceTree = "<group>"; };
+		BDD9240B1F59705C00D7EEAB /* BasePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasePresenter.m; path = Presenter/BasePresenter.m; sourceTree = "<group>"; };
+		BDD924101F5974C800D7EEAB /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		C5D3F21005389888D6114560 /* Pods-UberPiano.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberPiano.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UberPiano/Pods-UberPiano.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +69,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1CDF6417F36CA910EEA9BB5 /* libPods-UberPiano.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3470B27F411B8AA530894779 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5D3F21005389888D6114560 /* Pods-UberPiano.debug.xcconfig */,
+				545CD8A097F83D26AF20A4B3 /* Pods-UberPiano.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD2B7CBC1F5976590096E672 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				BD2B7CC01F5976DF0096E672 /* NSLayoutConstraint+NSLayoutConstraint_Extension.h */,
+				BD2B7CC11F5976DF0096E672 /* NSLayoutConstraint+NSLayoutConstraint_Extension.m */,
+				BD2B7CBD1F5976770096E672 /* DialogView.h */,
+				BD2B7CBE1F5976770096E672 /* DialogView.m */,
+				BD2B7CC31F597B320096E672 /* DialogView.xib */,
+			);
+			name = CustomView;
+			sourceTree = "<group>";
+		};
 		BDD923C71F594E5800D7EEAB = {
 			isa = PBXGroup;
 			children = (
 				BDD923D21F594E5800D7EEAB /* UberPiano */,
 				BDD923D11F594E5800D7EEAB /* Products */,
+				3470B27F411B8AA530894779 /* Pods */,
+				F985EFA1EFE153C0B55908D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +118,15 @@
 		BDD923D21F594E5800D7EEAB /* UberPiano */ = {
 			isa = PBXGroup;
 			children = (
-				BDD923D61F594E5800D7EEAB /* AppDelegate.h */,
-				BDD923D71F594E5800D7EEAB /* AppDelegate.m */,
-				BDD923D91F594E5800D7EEAB /* ViewController.h */,
-				BDD923DA1F594E5800D7EEAB /* ViewController.m */,
-				BDD923DC1F594E5800D7EEAB /* Main.storyboard */,
+				BDD923FE1F595B9900D7EEAB /* Application */,
+				BDD923EB1F594E6D00D7EEAB /* Model */,
+				BDD923F01F5950D200D7EEAB /* ViewController */,
+				BDD923EA1F594E6400D7EEAB /* Presenter */,
+				BDD923F11F5950D800D7EEAB /* Storyboard */,
+				BDD923EC1F594E7D00D7EEAB /* Network */,
+				BDD923F21F5950E400D7EEAB /* Libraries */,
+				BD2B7CBC1F5976590096E672 /* CustomView */,
+				BDD923F31F59511F00D7EEAB /* Utils */,
 				BDD923DF1F594E5800D7EEAB /* Assets.xcassets */,
 				BDD923E11F594E5800D7EEAB /* LaunchScreen.storyboard */,
 				BDD923E41F594E5800D7EEAB /* Info.plist */,
@@ -79,6 +143,100 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BDD923EA1F594E6400D7EEAB /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				BDD9240A1F59705C00D7EEAB /* BasePresenter.h */,
+				BDD9240B1F59705C00D7EEAB /* BasePresenter.m */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		BDD923EB1F594E6D00D7EEAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BDD923EC1F594E7D00D7EEAB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BDD924031F5960FB00D7EEAB /* NetworkAPI.h */,
+				BDD923F71F5955CC00D7EEAB /* AppError.h */,
+				BDD923F81F5955CC00D7EEAB /* AppError.m */,
+				BDD923F41F59559D00D7EEAB /* BaseTaskNetwork.h */,
+				BDD923F51F59559D00D7EEAB /* BaseTaskNetwork.m */,
+				BDD924041F596A3E00D7EEAB /* ExampleTask.h */,
+				BDD924051F596A3E00D7EEAB /* ExampleTask.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		BDD923F01F5950D200D7EEAB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BDD924101F5974C800D7EEAB /* BaseView.h */,
+				BDD923D91F594E5800D7EEAB /* ViewController.h */,
+				BDD923DA1F594E5800D7EEAB /* ViewController.m */,
+				BDD924071F59703700D7EEAB /* BaseViewController.h */,
+				BDD924081F59703700D7EEAB /* BaseViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		BDD923F11F5950D800D7EEAB /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				BDD923DC1F594E5800D7EEAB /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		BDD923F21F5950E400D7EEAB /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		BDD923F31F59511F00D7EEAB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BDD923FA1F5957E400D7EEAB /* Category */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		BDD923FA1F5957E400D7EEAB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BDD923FB1F59580C00D7EEAB /* NSMutableDictionary+Extensions.h */,
+				BDD923FC1F59580C00D7EEAB /* NSMutableDictionary+Extensions.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		BDD923FE1F595B9900D7EEAB /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				BDD923FF1F595BC900D7EEAB /* PrefixHeader.pch */,
+				BDD923D61F594E5800D7EEAB /* AppDelegate.h */,
+				BDD923D71F594E5800D7EEAB /* AppDelegate.m */,
+				BDD924001F595E4900D7EEAB /* Constant.h */,
+				BDD924011F595E4900D7EEAB /* Constant.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		F985EFA1EFE153C0B55908D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AB5621F10EFE12F3F8A77E9 /* libPods-UberPiano.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +244,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDD923E71F594E5800D7EEAB /* Build configuration list for PBXNativeTarget "UberPiano" */;
 			buildPhases = (
+				ECB056B2386ACBA98F507153 /* [CP] Check Pods Manifest.lock */,
 				BDD923CC1F594E5800D7EEAB /* Sources */,
 				BDD923CD1F594E5800D7EEAB /* Frameworks */,
 				BDD923CE1F594E5800D7EEAB /* Resources */,
+				91FB6F4BB7A2C191E91C0A9B /* [CP] Embed Pods Frameworks */,
+				7867B53329DC5563AE8802B8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,20 +301,78 @@
 			files = (
 				BDD923E31F594E5800D7EEAB /* LaunchScreen.storyboard in Resources */,
 				BDD923E01F594E5800D7EEAB /* Assets.xcassets in Resources */,
+				BD2B7CC41F597B320096E672 /* DialogView.xib in Resources */,
 				BDD923DE1F594E5800D7EEAB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7867B53329DC5563AE8802B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UberPiano/Pods-UberPiano-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91FB6F4BB7A2C191E91C0A9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UberPiano/Pods-UberPiano-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECB056B2386ACBA98F507153 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BDD923CC1F594E5800D7EEAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD2B7CBF1F5976770096E672 /* DialogView.m in Sources */,
+				BDD923F61F59559D00D7EEAB /* BaseTaskNetwork.m in Sources */,
+				BDD924091F59703700D7EEAB /* BaseViewController.m in Sources */,
 				BDD923DB1F594E5800D7EEAB /* ViewController.m in Sources */,
+				BDD924021F595E4900D7EEAB /* Constant.m in Sources */,
+				BDD923FD1F59580C00D7EEAB /* NSMutableDictionary+Extensions.m in Sources */,
+				BDD9240C1F59705C00D7EEAB /* BasePresenter.m in Sources */,
+				BDD923F91F5955CC00D7EEAB /* AppError.m in Sources */,
 				BDD923D81F594E5800D7EEAB /* AppDelegate.m in Sources */,
 				BDD923D51F594E5800D7EEAB /* main.m in Sources */,
+				BDD924061F596A3E00D7EEAB /* ExampleTask.m in Sources */,
+				BD2B7CC21F5976DF0096E672 /* NSLayoutConstraint+NSLayoutConstraint_Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,10 +492,13 @@
 		};
 		BDD923E81F594E5800D7EEAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5D3F21005389888D6114560 /* Pods-UberPiano.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VEG3S2KXL3;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/UberPiano/PrefixHeader.pch";
 				INFOPLIST_FILE = UberPiano/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.crazy.UberPiano;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,10 +507,13 @@
 		};
 		BDD923E91F594E5800D7EEAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 545CD8A097F83D26AF20A4B3 /* Pods-UberPiano.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VEG3S2KXL3;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/UberPiano/PrefixHeader.pch";
 				INFOPLIST_FILE = UberPiano/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.crazy.UberPiano;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -314,6 +539,7 @@
 				BDD923E91F594E5800D7EEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
